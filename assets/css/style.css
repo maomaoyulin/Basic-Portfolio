@@ -41,6 +41,15 @@ a {
     background-color: blanchedalmond;
 }
 
+.main2 {
+    width:630px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: 245px;
+    margin-bottom: 80px;
+}
+
 .pages {
     width: 25%;
     margin-left: 510px;
@@ -52,17 +61,27 @@ a {
 }
 
 #gmail {
-    float: right;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
 }
 
 #fb {
-    float: right;
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
 }
 
 #github {
-    float: right;
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#linkedin {
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
 }
 
 h2{
@@ -74,22 +93,47 @@ h2{
 }
 
 .social_media {
-    float: right;
-    margin-right: 50px;
+    width:300px;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    color: #428bca;
+    float: left;
+    padding-left: 25px;
     margin-top: 30px;
 }
 
 form{
     clear: both;
     padding-left: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding-top: 0px;
 }
 
 hr {
     clear: both;
     width: 900px;
+    height: 3px;
+    background-color: #428bca;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#hr1 {
+    clear: both;
+    width: 560px;
+    height: 3px;
+    background-color: #428bca;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#hr2 {
+    width: 230px;
     height: 3px;
     background-color: #428bca;
     margin: auto;
